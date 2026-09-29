@@ -1,0 +1,22 @@
+name: Bug report
+description: Report a reproducible parsing, path, or report problem.
+body:
+  - type: textarea
+    id: tree
+    attributes:
+      label: Minimal skill tree and command
+      description: Use synthetic files. Do not include secrets or private skill content.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Skillspine version, Python version, and operating system
+    validations:
+      required: true

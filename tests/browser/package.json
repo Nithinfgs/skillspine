@@ -1,0 +1,11 @@
+{
+  "name": "skillspine-browser-tests",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "node check.cjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
+}
