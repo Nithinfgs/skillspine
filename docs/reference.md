@@ -71,7 +71,7 @@ and `chain`.
 No timestamps or absolute scan root are included, making repeated scans of a stable
 tree reproducible. Source paths embedded in references are reported as written or
 normalized; these may contain sensitive names. JSON escapes control characters.
-Text output escapes terminal control characters. HTML escapes all source-derived
+Console output uses UTF-8 and escapes terminal control characters. HTML escapes all source-derived
 strings and does not render source Markdown.
 
 ## CI integration

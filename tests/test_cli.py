@@ -1,3 +1,4 @@
+import io
 import json
 from pathlib import Path
 
@@ -24,9 +25,9 @@ def test_output_exclusive_and_empty_error(tmp_path, capsys):
     (tmp_path / "SKILL.md").write_text("# Hello")
     output = tmp_path / "report.html"
     assert main([str(tmp_path), "--format", "html", "--output", str(output)]) == 0
-    before = output.read_text()
+    before = output.read_text(encoding="utf-8")
     assert main([str(tmp_path), "--output", str(output)]) == 2
-    assert output.read_text() == before
+    assert output.read_text(encoding="utf-8") == before
     assert main([str(tmp_path), "--output", str(tmp_path / "SKILL.md")]) == 2
     assert (tmp_path / "SKILL.md").read_text() == "# Hello"
 
@@ -71,3 +72,13 @@ def test_example_collection_matches_pitch():
     assert sum(bool(s.impacts) for s in report.skills) == 2
     assert sum(bool(s.isolated) for s in report.skills) == 2
     assert not any(s.collection for s in report.skills)
+
+
+def test_stdout_uses_utf8_even_with_legacy_encoding(tmp_path, monkeypatch):
+    (tmp_path / "SKILL.md").write_text("# Hello", encoding="utf-8")
+    buffer = io.BytesIO()
+    stream = io.TextIOWrapper(buffer, encoding="ascii")
+    monkeypatch.setattr("sys.stdout", stream)
+    assert main([str(tmp_path)]) == 0
+    stream.flush()
+    assert "SKILLSPINE ·" in buffer.getvalue().decode("utf-8")

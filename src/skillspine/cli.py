@@ -1,6 +1,7 @@
 """CLI orchestration and strict, explicit TOML configuration."""
 
 import argparse
+import io
 import json
 import sys
 import tomllib
@@ -38,6 +39,11 @@ def _config(path: Path | None) -> dict[str, Any]:
 
 
 def main(argv: list[str] | None = None) -> int:
+    # Redirected Windows streams may default to a legacy code page. Reports and
+    # console output use UTF-8 consistently, including Unicode dependency paths.
+    for stream in (sys.stdout, sys.stderr):
+        if isinstance(stream, io.TextIOWrapper):
+            stream.reconfigure(encoding="utf-8", errors="backslashreplace")
     parser = argparse.ArgumentParser(
         description="Map agent skill dependencies, change impact, and isolated-install failures."
     )
