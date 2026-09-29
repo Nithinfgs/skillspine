@@ -1,0 +1,584 @@
+{
+  "retrieved_at": "2026-09-29T13:46:28.282614+00:00",
+  "source": "https://github.com/trending?since=weekly",
+  "repositories": [
+    {
+      "name": "paperclipai/paperclip",
+      "weekly_growth": 10518,
+      "created_at": "2026-03-02T15:01:51Z",
+      "stargazers_count": 94004,
+      "forks_count": 15997,
+      "language": "TypeScript",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "open_issues_count": 6041,
+      "homepage": "https://paperclip.ing",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "contributors_first_page": 100,
+      "contributors_note": "First 100 API entries; lower bound if 100; includes anonymous contributors",
+      "recent_issues": [
+        {
+          "title": "Feature request: a concurrency cap per AI connection, not only per agent",
+          "url": "https://github.com/paperclipai/paperclip/issues/14564"
+        },
+        {
+          "title": "Claude usage-limit failures under the `claude_local` ACP engine never reach the `provider_quota` path, because `acpx` discards the typed failure category",
+          "url": "https://github.com/paperclipai/paperclip/issues/14563"
+        }
+      ]
+    },
+    {
+      "name": "anthropics/financial-services",
+      "weekly_growth": 2381,
+      "created_at": "2026-02-23T19:24:50Z",
+      "stargazers_count": 38176,
+      "forks_count": 5500,
+      "language": "Python",
+      "description": null,
+      "open_issues_count": 226,
+      "homepage": null,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "contributors_first_page": 12,
+      "contributors_note": "First 100 API entries; lower bound if 100; includes anonymous contributors",
+      "recent_issues": [
+        {
+          "title": "Add opt-in AISOP/AISP package preflight for custom skills",
+          "url": "https://github.com/anthropics/financial-services/issues/374"
+        }
+      ]
+    },
+    {
+      "name": "vectorize-io/hindsight",
+      "weekly_growth": 15537,
+      "created_at": "2025-10-30T11:49:48Z",
+      "stargazers_count": 42124,
+      "forks_count": 5653,
+      "language": "Python",
+      "description": "Hindsight: Agent Memory That Learns",
+      "open_issues_count": 145,
+      "homepage": "https://hindsight.vectorize.io/",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "contributors_first_page": 100,
+      "contributors_note": "First 100 API entries; lower bound if 100; includes anonymous contributors",
+      "recent_issues": [
+        {
+          "title": "Reasoning leaks into memory when the chat template prefills <think> (orphan </think> not stripped)",
+          "url": "https://github.com/vectorize-io/hindsight/issues/4926"
+        },
+        {
+          "title": "openclaw plugin: register native memory capability so the Memory page / active-memory work when hindsight holds the memory slot",
+          "url": "https://github.com/vectorize-io/hindsight/issues/4916"
+        }
+      ]
+    },
+    {
+      "name": "debpalash/VoiceStudio",
+      "weekly_growth": 7972,
+      "created_at": "2026-04-09T21:40:26Z",
+      "stargazers_count": 46653,
+      "forks_count": 5282,
+      "language": "Python",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative \u2014 voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "open_issues_count": 63,
+      "homepage": "https://voicestudio.sh",
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "contributors_first_page": 79,
+      "contributors_note": "First 100 API entries; lower bound if 100; includes anonymous contributors",
+      "recent_issues": [
+        {
+          "title": "[Bug] Backend is running but temporarily not responding on port 3900. Waiting for reco",
+          "url": "https://github.com/debpalash/VoiceStudio/issues/2430"
+        },
+        {
+          "title": "[Bug] Call agent reads a reasoning model's thinking aloud when the chat template prefills <think>",
+          "url": "https://github.com/debpalash/VoiceStudio/issues/2428"
+        }
+      ]
+    },
+    {
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "weekly_growth": 5004,
+      "created_at": "2026-03-18T18:38:02Z",
+      "stargazers_count": 60896,
+      "forks_count": 10481,
+      "language": "Python",
+      "description": "Learn it. Build it. Ship it for others.",
+      "open_issues_count": 55,
+      "homepage": "https://aiengineeringfromscratch.com",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "contributors_first_page": 22,
+      "contributors_note": "First 100 API entries; lower bound if 100; includes anonymous contributors",
+      "recent_issues": [
+        {
+          "title": "Workbench generator writes locale-dependent output encoding",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch/issues/508"
+        },
+        {
+          "title": "Workbench installer overwrites collisions without --force",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch/issues/506"
+        },
+        {
+          "title": "Windows CRLF checkouts make the shipped skill manifest fail",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch/issues/504"
+        },
+        {
+          "title": "[bug] link checker truncates URLs with balanced parentheses",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch/issues/502"
+        }
+      ]
+    },
+    {
+      "name": "vercel/next.js",
+      "weekly_growth": 544,
+      "created_at": "2016-10-05T23:32:51Z",
+      "stargazers_count": 142883,
+      "forks_count": 33485,
+      "language": "JavaScript",
+      "description": "The React Framework",
+      "open_issues_count": 3534,
+      "homepage": "https://nextjs.org",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "contributors_first_page": 100,
+      "contributors_note": "First 100 API entries; lower bound if 100; includes anonymous contributors",
+      "recent_issues": [
+        {
+          "title": "Draft Mode doesn't isolate concurrent invocations of a `'use cache'` function",
+          "url": "https://github.com/vercel/next.js/issues/99424"
+        }
+      ]
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "weekly_growth": 1227,
+      "created_at": "2026-03-08T13:52:57Z",
+      "stargazers_count": 50971,
+      "forks_count": 4652,
+      "language": "Python",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "open_issues_count": 113,
+      "homepage": "https://clianything.cc/",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "contributors_first_page": 100,
+      "contributors_note": "First 100 API entries; lower bound if 100; includes anonymous contributors",
+      "recent_issues": [
+        {
+          "title": "[Feature]: Treat uv as a supported install backend in cli-hub",
+          "url": "https://github.com/HKUDS/CLI-Anything/issues/495"
+        },
+        {
+          "title": "[Contributor Sign-Up] Anki",
+          "url": "https://github.com/HKUDS/CLI-Anything/issues/491"
+        }
+      ]
+    },
+    {
+      "name": "davila7/claude-code-templates",
+      "weekly_growth": 1200,
+      "created_at": "2025-07-04T01:26:26Z",
+      "stargazers_count": 32142,
+      "forks_count": 3655,
+      "language": "Python",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "open_issues_count": 301,
+      "homepage": "https://aitmpl.com",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "contributors_first_page": 100,
+      "contributors_note": "First 100 API entries; lower bound if 100; includes anonymous contributors",
+      "recent_issues": []
+    },
+    {
+      "name": "stablyai/orca",
+      "weekly_growth": 6151,
+      "created_at": "2026-03-17T03:28:57Z",
+      "stargazers_count": 81303,
+      "forks_count": 5288,
+      "language": "TypeScript",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "open_issues_count": 7056,
+      "homepage": "https://onOrca.dev",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "contributors_first_page": 100,
+      "contributors_note": "First 100 API entries; lower bound if 100; includes anonymous contributors",
+      "recent_issues": [
+        {
+          "title": "[Bug]: 100000 orca icons in my macOS Dock",
+          "url": "https://github.com/stablyai/orca/issues/23878"
+        },
+        {
+          "title": "[Bug]: [Windows] Claude Code agent hooks are written as \"<path> || echo {}\", which Windows PowerShell 5.1 fails to parse \u2014 every hook event fails",
+          "url": "https://github.com/stablyai/orca/issues/23877"
+        },
+        {
+          "title": "[Feature]: Keep sidebar subagent rows collapsed by default",
+          "url": "https://github.com/stablyai/orca/issues/23876"
+        },
+        {
+          "title": "[Bug]: orchestration send with --dispatch-capability silently rewrites an explicit --to <term handle> to the Run mailbox",
+          "url": "https://github.com/stablyai/orca/issues/23874"
+        }
+      ]
+    },
+    {
+      "name": "pytorch/pytorch",
+      "weekly_growth": 340,
+      "created_at": "2016-08-13T05:26:41Z",
+      "stargazers_count": 103517,
+      "forks_count": 30957,
+      "language": "Python",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "open_issues_count": 17598,
+      "homepage": "https://pytorch.org",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "contributors_first_page": 100,
+      "contributors_note": "First 100 API entries; lower bound if 100; includes anonymous contributors",
+      "recent_issues": [
+        {
+          "title": "[Inductor] Compiled softshrink turns NaN into zero",
+          "url": "https://github.com/pytorch/pytorch/issues/199017"
+        },
+        {
+          "title": "DISABLED test_copy_transpose_tiled_small_case_at_cuda_float16 (__main__.TestTorchDeviceTypeCUDA)",
+          "url": "https://github.com/pytorch/pytorch/issues/199016"
+        },
+        {
+          "title": "Inductor doesn't work with clang++ 21 (most likely PCH failure)",
+          "url": "https://github.com/pytorch/pytorch/issues/199014"
+        }
+      ]
+    },
+    {
+      "name": "Tencent/WeKnora",
+      "weekly_growth": 2509,
+      "created_at": "2025-07-22T08:01:23Z",
+      "stargazers_count": 31183,
+      "forks_count": 4168,
+      "language": "Go",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "open_issues_count": 574,
+      "homepage": "https://weknora.weixin.qq.com",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "contributors_first_page": 100,
+      "contributors_note": "First 100 API entries; lower bound if 100; includes anonymous contributors",
+      "recent_issues": [
+        {
+          "title": "[Bug]: \u9884\u751f\u6210\u95ee\u9898\u5728**\u5173\u95ed\u540e\u4ecd\u6301\u7eed\u5f71\u54cd\u68c0\u7d22**\u2014\u2014\u95ee\u53e5\u5411\u91cf\u4e0d\u968f\u914d\u7f6e\u6e05\u7406\u3001stale \u95ee\u53e5\u4ecd\u8fdb rerank passage",
+          "url": "https://github.com/Tencent/WeKnora/issues/3867"
+        },
+        {
+          "title": "[Bug]: \u5feb\u901f\u95ee\u7b54\uff08KnowledgeQA\uff09\u6d41\u5f0f\u5b8c\u6210\u4e8b\u4ef6\u672a\u8fd4\u56de usage\uff0c\u667a\u80fd\u63a8\u7406\u6b63\u5e38\u8fd4\u56de",
+          "url": "https://github.com/Tencent/WeKnora/issues/3865"
+        },
+        {
+          "title": "[Question]: mineru",
+          "url": "https://github.com/Tencent/WeKnora/issues/3863"
+        },
+        {
+          "title": "Confluence \u5bfc\u5165\u540e\u8868\u683c / \u56fe\u7247 / \u5bcc\u6587\u672c / mermaid / drawio \u4e22\u5931\uff0c\u7236\u9875\u5185\u5bb9\u7f3a\u5931\u4e14\u5b50\u9875\u94fe\u63a5\u6253\u4e0d\u5f00",
+          "url": "https://github.com/Tencent/WeKnora/issues/3856"
+        }
+      ]
+    },
+    {
+      "name": "cloudflare/security-audit-skill",
+      "weekly_growth": 3962,
+      "created_at": "2026-06-18T14:08:44Z",
+      "stargazers_count": 23013,
+      "forks_count": 1343,
+      "language": "JavaScript",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "open_issues_count": 53,
+      "homepage": "",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "contributors_first_page": 4,
+      "contributors_note": "First 100 API entries; lower bound if 100; includes anonymous contributors",
+      "recent_issues": [
+        {
+          "title": "Organize security-audit skill into standard subdirectories (references, scripts, resources)",
+          "url": "https://github.com/cloudflare/security-audit-skill/issues/56"
+        },
+        {
+          "title": "Add default AISOP/AISP discovery and format-aware audit coverage",
+          "url": "https://github.com/cloudflare/security-audit-skill/issues/54"
+        }
+      ]
+    },
+    {
+      "name": "pbakaus/impeccable",
+      "weekly_growth": 2547,
+      "created_at": "2025-11-16T01:52:04Z",
+      "stargazers_count": 72380,
+      "forks_count": 4378,
+      "language": "JavaScript",
+      "description": "The design language that makes your AI harness better at design.",
+      "open_issues_count": 63,
+      "homepage": "https://impeccable.style",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "contributors_first_page": 54,
+      "contributors_note": "First 100 API entries; lower bound if 100; includes anonymous contributors",
+      "recent_issues": [
+        {
+          "title": "[Bug] live: bar, pick and Detect outlines are unusable while a native modal <dialog> is open",
+          "url": "https://github.com/pbakaus/impeccable/issues/879"
+        },
+        {
+          "title": "[Bug] Claude Code plugin hooks.json ParserErrors on Windows when hooks run in PowerShell",
+          "url": "https://github.com/pbakaus/impeccable/issues/878"
+        },
+        {
+          "title": "live-wrap: multi-line JSX elements unfindable; fallback discard-restore can delete the original element",
+          "url": "https://github.com/pbakaus/impeccable/issues/875"
+        },
+        {
+          "title": "npx impeccable install fails with \"Could not verify skill bundle: HTTP 404\" on fresh install",
+          "url": "https://github.com/pbakaus/impeccable/issues/874"
+        },
+        {
+          "title": "[Feature] Optional dark mode for review surfaces",
+          "url": "https://github.com/pbakaus/impeccable/issues/873"
+        },
+        {
+          "title": "Bundle download 302s to skill-v4.4.0, which does not exist \u2014 `npx impeccable update` fails with HTTP 404",
+          "url": "https://github.com/pbakaus/impeccable/issues/871"
+        }
+      ]
+    },
+    {
+      "name": "TencentCloud/Octop",
+      "weekly_growth": 970,
+      "created_at": "2026-07-08T12:54:20Z",
+      "stargazers_count": 5682,
+      "forks_count": 707,
+      "language": "Python",
+      "description": "A smarter, self-hosted AI assistant \u2014 multi-user, multi-agent.",
+      "open_issues_count": 588,
+      "homepage": "https://octop.cloud",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "contributors_first_page": 48,
+      "contributors_note": "First 100 API entries; lower bound if 100; includes anonymous contributors",
+      "recent_issues": [
+        {
+          "title": "[bug] \u5185\u7f6e\u6d4f\u89c8\u5668\u4eba\u5de5\u63a5\u7ba1\u540e\u70b9\u51fb\u9519\u4f4d\uff1acanvas \u4f7f\u7528 object-fit: contain\uff0c\u4f46\u70b9\u51fb\u5750\u6807\u6309\u62c9\u4f38\u6362\u7b97\uff08BrowserViewer / getCanvasCoords\uff09",
+          "url": "https://github.com/TencentCloud/Octop/issues/1329"
+        }
+      ]
+    },
+    {
+      "name": "trycua/cua",
+      "weekly_growth": 1293,
+      "created_at": "2025-01-31T15:02:49Z",
+      "stargazers_count": 27105,
+      "forks_count": 1889,
+      "language": "HTML",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "open_issues_count": 1042,
+      "homepage": "https://cua.ai",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "contributors_first_page": 100,
+      "contributors_note": "First 100 API entries; lower bound if 100; includes anonymous contributors",
+      "recent_issues": [
+        {
+          "title": "[Bug]: Rust Cua Driver release bundle Info.plist is malformed",
+          "url": "https://github.com/trycua/cua/issues/4343"
+        },
+        {
+          "title": "macOS embedded Electron: inherited DevTools listener selects the host endpoint during isolated browser preparation",
+          "url": "https://github.com/trycua/cua/issues/4342"
+        },
+        {
+          "title": "Fix Bash parsing in two Linux sandbox metadata extractors",
+          "url": "https://github.com/trycua/cua/issues/4341"
+        },
+        {
+          "title": "Embedded Node SDK waitForExit retains native callbacks during long-running sessions",
+          "url": "https://github.com/trycua/cua/issues/4339"
+        }
+      ]
+    },
+    {
+      "name": "PrismML-Eng/Bonsai-demo",
+      "weekly_growth": 243,
+      "created_at": "2026-03-25T19:25:09Z",
+      "stargazers_count": 3198,
+      "forks_count": 347,
+      "language": "Shell",
+      "description": "Bonsai Demo",
+      "open_issues_count": 21,
+      "homepage": "https://prismml.com/",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "contributors_first_page": 51,
+      "contributors_note": "First 100 API entries; lower bound if 100; includes anonymous contributors",
+      "recent_issues": [
+        {
+          "title": "[Documentation/Bug] Fix for CUDA 13.x / RTX 50-series initialization failure on Windows",
+          "url": "https://github.com/PrismML-Eng/Bonsai-demo/issues/248"
+        },
+        {
+          "title": "setup.sh aborts the MLX step without full Xcode, though the native Bonsai 2 MLX path only needs PyPI wheels",
+          "url": "https://github.com/PrismML-Eng/Bonsai-demo/issues/246"
+        },
+        {
+          "title": "MLX server: chat template not applied, so thinking never opens and reasoning_content is always null",
+          "url": "https://github.com/PrismML-Eng/Bonsai-demo/issues/245"
+        },
+        {
+          "title": "Bug: Rigid Jinja chat template causes 500 error (\"No user query found\") with VS Code Continue extension",
+          "url": "https://github.com/PrismML-Eng/Bonsai-demo/issues/241"
+        },
+        {
+          "title": "Feature Request: Native MTP Support for Bonsai-2-27B",
+          "url": "https://github.com/PrismML-Eng/Bonsai-demo/issues/235"
+        },
+        {
+          "title": "Chat template raises on mid-conversation system messages \u2014 breaks Claude Code / Anthropic-protocol clients",
+          "url": "https://github.com/PrismML-Eng/Bonsai-demo/issues/213"
+        }
+      ]
+    },
+    {
+      "name": "elastic/elasticsearch",
+      "weekly_growth": 97,
+      "created_at": "2010-02-08T13:20:56Z",
+      "stargazers_count": 78096,
+      "forks_count": 26096,
+      "language": "Java",
+      "description": "Free and Open Source, Distributed, RESTful Search Engine",
+      "open_issues_count": 6105,
+      "homepage": "https://www.elastic.co/products/elasticsearch",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "contributors_first_page": 100,
+      "contributors_note": "First 100 API entries; lower bound if 100; includes anonymous contributors",
+      "recent_issues": []
+    },
+    {
+      "name": "FxEmbed/FxEmbed",
+      "weekly_growth": 465,
+      "created_at": "2022-07-13T23:59:04Z",
+      "stargazers_count": 5572,
+      "forks_count": 263,
+      "language": "TypeScript",
+      "description": "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others",
+      "open_issues_count": 70,
+      "homepage": "https://docs.fxembed.com",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "contributors_first_page": 32,
+      "contributors_note": "First 100 API entries; lower bound if 100; includes anonymous contributors",
+      "recent_issues": [
+        {
+          "title": "Age-restricted content sometimes returns 404",
+          "url": "https://github.com/FxEmbed/FxEmbed/issues/2490"
+        },
+        {
+          "title": "fixupx not entirely working right?",
+          "url": "https://github.com/FxEmbed/FxEmbed/issues/2487"
+        }
+      ]
+    }
+  ]
+}

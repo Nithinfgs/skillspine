@@ -1,0 +1,6 @@
+# Pass explicitly with --config examples/skillspine.toml.
+# Glob patterns match either a whole relative path or a basename.
+exclude = ["vendor", "generated"]
+code_paths = false
+max_files = 20000
+max_markdown_bytes = 1000000
